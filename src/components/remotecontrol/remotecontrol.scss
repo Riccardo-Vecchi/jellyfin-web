@@ -247,10 +247,6 @@
     display: none;
 }
 
-.layout-mobile .nowPlayingPageUserDataButtons {
-    display: none;
-}
-
 @media all and (min-width: 63em) {
     .nowPlayingPage {
         padding: 8em 0 0 0 !important;
@@ -276,7 +272,8 @@
         height: 100%;
     }
 
-    .layout-desktop .nowPlayingPageUserDataButtons {
+    .layout-desktop .nowPlayingPageUserDataButtons,
+    .layout-mobile .nowPlayingPageUserDataButtons {
         display: none;
     }
 
